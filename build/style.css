@@ -1,0 +1,15 @@
+#map {
+    width: 98%;
+    height: 95vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+}
+
+div.absolute {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 250px;
+    height: 100px;
+}

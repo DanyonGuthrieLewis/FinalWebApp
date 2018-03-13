@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="absolute">
+        <select class="selectpicker" id="route_select" onchange="changeRoute()">
+            <option value="703">Red Line</option>
+            <option value="701">Blue Line</option>
+            <option value="704">Green Line</option>
+            <option value="750">Front Runner</option>
+            <option value="720">S Line</option>
+          </select> 
+    </div>
+
+    <div id="map"></div>
+
+    <script src="main.bundle.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_KwBQB0w3RVQ0KyR2egvkoYUUG-3KEUI&callback=initMap"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+  </body>
+</html>
